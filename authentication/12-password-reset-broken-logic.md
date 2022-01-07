@@ -1,0 +1,3 @@
+# Lab: Password reset broken logic
+
+Navigate to the forgot password form and enter the username with the known password. Open the reset email and enter a new password. Intercept the request and notice that the password reset token is present in the url query params and in the body. Remove them and forward the request to see that the reset is still successful. Repeat the sequence, but before forwarding the request change the username parameter to the target user. Login as carlos.
