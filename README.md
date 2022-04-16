@@ -29,3 +29,5 @@ Learning Path
 1. OAuth Authentication
 
 --> EXAM
+
+Search for "not done" to find skipped labs.
